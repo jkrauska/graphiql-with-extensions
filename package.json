@@ -1,6 +1,6 @@
 {
-  "name": "graphiql-with-extensions",
-  "version": "0.14.0",
+  "name": "graphiql-with-explorer",
+  "version": "0.15.0",
   "homepage": "https://github.com/jkrauska/graphiql-with-extensions",
   "bugs": {
     "url": "https://github.com/jkrauska/graphiql-with-extensions/issues"
