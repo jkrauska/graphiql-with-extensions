@@ -1,13 +1,13 @@
 {
   "name": "graphiql-with-extensions",
   "version": "0.14.0",
-  "homepage": "https://github.com/onegraph/graphiql-with-extensions",
+  "homepage": "https://github.com/jkrauska/graphiql-with-extensions",
   "bugs": {
-    "url": "https://github.com/onegraph/graphiql-with-extensions/issues"
+    "url": "https://github.com/jkrauska/graphiql-with-extensions/issues"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/onegraph/graphiql-with-extensions.git"
+    "url": "http://github.com/jkrauska/graphiql-with-extensions.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "main": "dist/index.js",
@@ -36,9 +36,9 @@
     ]
   },
   "peerDependencies": {
-    "graphql": "^0.6.0 || ^0.7.0 || ^0.8.0-b || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0",
-    "react": "^15.6.0 || ^16.0.0",
-    "react-dom": "^15.6.0 || ^16.0.0"
+    "graphql": "^0.6.0 || ^0.7.0 || ^0.8.0-b || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^16.0.0 ",
+    "react": "^15.6.0 || ^16.0.0 || ^17.0.0",
+    "react-dom": "^15.6.0 || ^16.0.0 || ^17.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.0.0",
@@ -81,8 +81,8 @@
     "test": "npm run lint && npm run check && npm run build"
   },
   "dependencies": {
-    "graphiql": "^0.14.2",
-    "graphiql-explorer": "^0.4.4",
-    "graphql": "^14.5.4"
+    "graphiql": "^1.7.1",
+    "graphiql-explorer": "^0.9.0",
+    "graphql": "^16.3.0"
   }
 }
