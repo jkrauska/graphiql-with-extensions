@@ -1,15 +1,28 @@
-# GraphiQL with extensions
+# GraphiQL with graphiql-explorer extension
 
 This is a meta-package meant to bring together the most popular GraphiQL plugins and make them easy to flip on and off.
+
+
+#### NOTE: Forked in March 2022 from graphigl-with-extensions 
+(upstream seemed to be not actively updating dependencies)
+  - Applied most outstanding PRs
+  - Updated to newest dependancies
+  - Rename to avoid name collision in NPM/Unpkg
+
+
+To build:
+```
+yarn build
+```
 
 The original GraphiQL package is consumable as a single React component, even without JSX. This makes it very easy to embed just about anywhere you can put JavaScript that might not have a full modern build pipeline (e.g. Rails with a sprockets setup).
 
 Usage is easy:
 
 ```
-npm install --save graphiql-with-extensions
+npm install --save graphiql-with-graphiql-explorer
 # or
-yarn add graphiql-with-extensions
+yarn add graphiql-with-graphiql-explorer
 ```
 
 ```javascript
@@ -52,4 +65,4 @@ graphiql-with-extensions is licensed under the [MIT License](http://opensource.o
 graphiql is licensed under the [MIT License](http://opensource.org/licenses/MIT).<br>
 Documentation is licensed under [Creative Common License](http://creativecommons.org/licenses/by/4.0/).<br>
 
-# graphiql-with-extensions
+# graphiql-with-graphiql-explorer
